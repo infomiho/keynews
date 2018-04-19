@@ -1,5 +1,7 @@
 # Keynews
 
+![](http://deviantpics.com/images/2018/04/19/image.png)
+
 ## Objective
 Our objective was to enable the end user to explore current news space and deduce connections between key phrases. It included downloading currently trending news stories from multitude of news outlets.
 We approached this objective from a standpoint of a connected graph where the nodes represent the keyphrases and the edges represent the connections.
