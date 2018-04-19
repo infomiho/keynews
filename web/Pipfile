@@ -1,0 +1,38 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[dev-packages]
+
+
+
+[packages]
+
+pip = "*"
+readability-lxml = "*"
+"urllib3" = "*"
+requests = "*"
+spacy = "*"
+gensim = "*"
+"beautifulsoup4" = "*"
+flask = "*"
+newsapi = "*"
+flask-script = "*"
+flask-sqlalchemy = "*"
+flask-marshmallow = "*"
+marshmallow-sqlalchemy = "*"
+"psycopg2" = "*"
+apscheduler = "*"
+flask-apscheduler = "*"
+python-levenshtein = "*"
+flask-cors = "*"
+flask-cache = "*"
+wikiapi = "*"
+
+
+[requires]
+
+python_version = "3.6"

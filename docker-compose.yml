@@ -1,0 +1,29 @@
+version: '2'
+
+services:
+  web:
+    build: ./web
+    environment:
+      - APP_CONFIG=production
+#       - APP_PRODUCTION_DATABASE_URI=postgres://keynews:123456@postgres:5432/keynews
+    ports:
+      - "8004:5000"
+#     volumes:
+#       - /usr/src/app/web/project/static # ? ovo ne radi 100%
+    depends_on:
+      - postgres
+    restart: always
+
+  postgres:
+    image: postgres:9.6
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=keynews
+      - POSTGRES_PASSWORD=123456
+      - POSTGRES_DB=keynews
+    restart: always
+
+volumes:
+  postgres_data:
+    driver: local

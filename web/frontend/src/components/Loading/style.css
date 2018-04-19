@@ -1,0 +1,9 @@
+.Loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  box-shadow: 0 0 0 5000px rgba(255, 255, 255, 0.9); 
+  z-index: 9999;
+}
