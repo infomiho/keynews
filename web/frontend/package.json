@@ -30,7 +30,7 @@
     "cytoscape": "^3.2.5",
     "cytoscape-cose-bilkent": "^4.0.0",
     "cytoscape-spread": "^1.3.1",
-    "moment": "^2.20.1",
+    "moment": "^2.29.4",
     "preact": "^8.2.1",
     "preact-compat": "^3.17.0",
     "preact-redux": "^2.0.3",
